@@ -151,6 +151,135 @@ body{
 background: linear-gradient(0deg, rgba(46,44,44,1) 1%, rgba(121,9,41,1) 87%);
 }
 
+/* /* Sefa CSS Starting From Here */
+.container {
+    height: 100%;
+}
+
+.top-section {
+    margin-top: 3rem;
+    color: white;
+}
+
+.boxes {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.box {
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    width: 200px;
+    height: 65px;
+    border-radius: 5px;
+    background-blend-mode: screen;
+}
+
+.box img {
+    max-width: 60px;
+}
+
+.box_title {
+    margin-left: 5px;
+    font-weight: 500;
+    color: whitesmoke;
+    overflow: hidden;
+}
+
+.bottom {
+    position: sticky;
+    bottom: 0;
+    height: 130px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icons {
+    margin-top: 14px;
+}
+
+.icons i {
+    cursor: pointer;
+}
+
+#myProgressBar {
+    width: 80vw;
+    cursor: pointer;
+}
+
+.lessThan,
+.greaterThan {
+    background-color: black;
+    border-radius: 15px;
+    padding: 12px;
+}
+
+ :hover .lessThan {
+    background: transparent;
+}
+
+ :hover .greaterThan {
+    background: transparent;
+}
+
+/* Sefa CSS ends Here */
+
+
+.card__container {
+box-sizing: border-box;
+padding-left: 20%;
+padding-right: 20%;
+}
+
+.card__section {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+width: 100%;
+margin-left: 10px;
+margin-top: 50px;
+margin-bottom: 20px;
+}
+
+.card {
+width: 12%; /* we want 8 cards => 100/ 8 = 12.5%, but we also want some space between them */
+min-width: 150px;
+height: auto;
+display: flex;
+flex-direction: column;
+background-color: rgba(20, 19, 19, 0.842);
+color: white;
+}
+
+.card .card__body .card__meta {
+height: 80%;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items:center
+}
+
+.headline__container {
+box-sizing: border-box;
+padding-left: 20%;
+padding-right: 20%;
+}
+
+.headline__section {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+width: 100%;
+margin-left: 10px;
+}
+
 /* SANAZ CSS */
 #navbar {
     display: inline-block;
@@ -229,4 +358,7 @@ hr{
     scrollbar-color: #000 #F5F5F5;
     }
 /* END SANAZ CSS */
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
