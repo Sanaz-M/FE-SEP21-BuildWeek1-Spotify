@@ -124,10 +124,15 @@ flex-direction: row;
 justify-content: space-between;
 width: 100%;
 margin-left: 10px;
-margin-top: 50px;
+margin-top: 15px;
 margin-bottom: 20px;
 font-size: 12px;
 font-weight: 600;
+}
+
+
+#recentlyPlayed{
+
 }
 
 .card {
@@ -150,8 +155,8 @@ align-items:center
 
 .headline__container {
 box-sizing: border-box;
-padding-left: 20%;
-padding-right: 20%;
+padding-left: 5%;
+padding-right: 0%;
 }
 
 .headline__section {
@@ -159,7 +164,7 @@ display: flex;
 flex-direction: row;
 justify-content: space-between;
 width: 100%;
-margin-left: 10px;
+margin-left: -38px;
 }
 
 /* SANAZ CSS */
