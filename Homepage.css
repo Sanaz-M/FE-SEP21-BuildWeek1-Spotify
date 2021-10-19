@@ -26,7 +26,11 @@ color: #ececec;
 
 .top-section {
     margin-top: 3rem;
-    margin-left: 55px;
+    margin-left: 80px;
+}
+
+.top-section h1{
+    margin-left: 20px;
 }
 
 .boxs-morning{
