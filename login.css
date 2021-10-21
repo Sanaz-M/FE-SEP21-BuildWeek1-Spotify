@@ -1,0 +1,50 @@
+body {
+  font-family: Circular, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+button {
+  border-radius: 3rem;
+}
+
+.spotyfy-img {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-self: center;
+}
+.facebook-btn {
+  border-radius: 2rem;
+  font-size: small;
+  background-color: #110590;
+  border-color: #110590;
+  color: white;
+  font-family: Circular, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight: bold;
+}
+.apple-btn {
+  border-radius: 2rem;
+  font-size: small;
+  background-color: black;
+  font-family: Circular, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight: bold;
+}
+.email-placeholder {
+  display: flex;
+  flex-direction: row;
+  justify-self: center;
+  text-align: center;
+  font-family: Circular, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight: bold;
+}
+.form-check-input {
+  background-color: rgb(33, 187, 33) !important;
+  border-color: rgb(33, 187, 33) !important;
+  font-family: Circular, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight: bold;
+}
+.signup-btn {
+  border-color: rgb(114, 112, 112);
+  border-radius: 2rem;
+  color: rgb(114, 112, 112);
+  font-family: Circular, Helvetica Neue, Helvetica, Arial, sans-serif;
+  border-width: 0.4ex;
+}
