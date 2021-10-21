@@ -17,20 +17,44 @@ body {
 /* Sanaz */
 #navbar {
   display: inline-block;
-  width: 240px;
   background-color: #000000;
   border: 1px solid #000000;
   border-radius: 3px;
-  height: 100vh;
   color: #f0f0f0;
-  padding: 10px;
-  overflow: hidden;
-  position: fixed;
+  padding-top: 8px;
+  padding-left: 8px;
+  min-width: 200px;
+  max-width: 400px;
 }
 
 #navbar a {
   text-decoration: none;
   margin-left: 8px;
+}
+
+#navbar {
+  display: inline-block;
+  background-color: #000000;
+  border: 1px solid #000000;
+  border-radius: 3px;
+  color: #f0f0f0;
+  padding-top: 8px;
+  padding-left: 8px;
+  min-width: 200px;
+  max-width: 400px;
+}
+
+#navbar a {
+  text-decoration: none;
+  margin-left: 8px;
+}
+
+.w-15 {
+  width: 15%;
+}
+
+.menu-nav {
+  height: 55%;
 }
 
 .links-nav {
@@ -69,10 +93,16 @@ body {
   font-weight: 600;
   opacity: 0.7;
   margin-left: 0;
+  text-align: left !important;
 }
 
 .links-small-nav p {
   font-size: 14px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 90%;
+  text-align: left !important;
 }
 
 .links-small-nav:hover {
@@ -83,20 +113,38 @@ hr {
   background-color: #6c757d70;
 }
 
-.scrollbar-black::-webkit-scrollbar-thumb {
-  border-radius: 10px;
-  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
-  background-color: #000;
+#scrollbar1 {
+  overflow: auto;
+  height: 40%;
 }
 
-.scrollbar-black {
-  scrollbar-color: #000 #f5f5f5;
+::-webkit-scrollbar {
+  width: 15px;
 }
 
-.container {
-  height: 100%;
+/* Track */
+::-webkit-scrollbar-track {
+  background: #000000;
 }
 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 0;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+#installApp-sticky {
+  position: absolute;
+  opacity: 0.7;
+  margin-left: 5px;
+  padding-top: 3px;
+  padding-bottom: 5px;
+}
 /* Sefa */
 
 .bottom {
@@ -281,6 +329,11 @@ hr {
   cursor: pointer;
 }
 /* Veena */
+.container {
+  margin-right: 0px !important;
+  margin-left: 240px !important;
+  width: 100% !important;
+}
 .table {
   border-top: 0.5px #b8b8b8 solid;
   margin-top: 20px;
@@ -306,4 +359,11 @@ hr {
 .card {
   background-color: #ffffff0a;
   width: 100%;
+}
+.button-follow {
+  background-color: transparent;
+  border-color: white;
+  color: white;
+  width: 90px;
+  height: 30px;
 }
