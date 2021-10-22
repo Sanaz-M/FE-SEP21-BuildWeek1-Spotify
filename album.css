@@ -224,6 +224,8 @@ padding-left: 25px;
 
 .links-nav:hover{
     opacity: 1;
+    background-color: rgba(190, 185, 185, 0.26);
+    transition-duration: 0.2s;
 }
 
 .container-fluid{
