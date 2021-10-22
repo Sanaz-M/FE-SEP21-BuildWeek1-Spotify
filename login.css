@@ -243,3 +243,9 @@ button {
 #no-account {
   margin-left: 55px;
 }
+.container-fluid {
+  overflow-x: hidden !important;
+}
+.container {
+  overflow-x: hidden !important;
+}
