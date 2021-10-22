@@ -88,22 +88,22 @@ body {
     border-radius: 50%;
 }
 
-.btn-color1{
-    background-color: #15883e;
-    color: rgb(255, 251, 255);
+.btn-color1 {
+  background-color: #15883e;
+  color: rgb(255, 251, 255);
 }
 
-.btn-color1:hover{
-    background-color: rgb(68, 156, 99);
-    color: rgb(255, 251, 255);
+.btn-color1:hover {
+  background-color: rgb(68, 156, 99);
+  color: rgb(255, 251, 255);
 }
 
-  .form-check-input {
-    background-color: rgb(33, 187, 33) !important;
-    border-color: rgb(33, 187, 33) !important;
-    font-family: Circular, Helvetica Neue, Helvetica, Arial, sans-serif;
-    font-weight: bold;
-  }
+.form-check-input {
+  background-color: rgb(33, 187, 33) !important;
+  border-color: rgb(33, 187, 33) !important;
+  font-family: Circular, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight: bold;
+}
 
   .signup-btn {
     border-color: rgb(114, 112, 112);
@@ -116,9 +116,9 @@ body {
     margin-left: 32px;
   }
 
-  .signup-btn:hover{
-      background-color: rgb(114, 112, 112);
-  }
+.signup-btn:hover {
+  background-color: rgb(114, 112, 112);
+}
 
   #no-account{
       margin-left: 55px;
