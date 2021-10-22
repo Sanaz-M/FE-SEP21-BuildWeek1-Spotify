@@ -385,6 +385,7 @@ footer #myProgressBar .icons {
   margin-left: 41px;
 }
 .container-fluid {
+  overflow-x: hidden;
   display: flex;
   flex-flow: column wrap !important;
   padding: 0 !important;
