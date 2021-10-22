@@ -155,6 +155,8 @@ button {
   border-radius: 2rem;
   font-size: small;
   background-color: #000;
+  border-color: #000;
+  color: white;
   font-family: Circular, Helvetica Neue, Helvetica, Arial, sans-serif;
   font-weight: bold;
   margin-left: 32px;
@@ -174,13 +176,43 @@ button {
   height: 48px;
 }
 #or-part {
-  padding-left: 430px;
+  padding-left: 376px;
 }
 
 #or-part div:nth-of-type(2) {
-  padding-left: 25px;
+  padding-left: 28px !important;
 }
-
+.login-main-container {
+  flex-direction: column;
+  max-width: 40vw;
+  align-items: center;
+}
+.left-hr {
+  width: 42%;
+  border-top: 1px solid black;
+  transform: translateY(50%);
+}
+.right-hr {
+  width: 42%;
+  border-top: 1px solid black;
+  transform: translateY(50%);
+}
+.or-div {
+  display: flex;
+  direction: row;
+  justify-content: space-between;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+#hr-or-right {
+  width: 100px;
+}
+#hr-or-left {
+  width: 200px;
+}
+.or-div {
+  border: bottom solid black 2px;
+}
 .email-placeholder {
   display: flex;
   flex-direction: row;
@@ -190,12 +222,12 @@ button {
   font-weight: bold;
   width: 500px;
   height: 48px;
-  margin-left: 545px;
+  margin-left: 497px;
 }
 
 #forget-pass {
   color: #7d7f82;
-  padding-left: 70px;
+  padding-left: 690px;
 }
 
 .form-check {
@@ -219,8 +251,8 @@ button {
 }
 
 .form-check-input {
-  background-color: rgb(33, 187, 33) !important;
-  border-color: rgb(33, 187, 33) !important;
+  background-color: #15883e !important;
+  border-color: #15883e !important;
   font-family: Circular, Helvetica Neue, Helvetica, Arial, sans-serif;
   font-weight: bold;
 }
@@ -231,17 +263,19 @@ button {
   color: rgb(114, 112, 112);
   font-family: Circular, Helvetica Neue, Helvetica, Arial, sans-serif;
   border-width: 0.4ex;
-  width: 400px;
+  width: 480px;
   height: 48px;
-  margin-left: 32px;
+  margin-left: 520px;
 }
 
 .signup-btn:hover {
   background-color: rgb(114, 112, 112);
 }
-
+#small-line {
+  padding-left: 300px;
+}
 #no-account {
-  margin-left: 55px;
+  margin-left: 680px;
 }
 .container-fluid {
   overflow-x: hidden !important;
