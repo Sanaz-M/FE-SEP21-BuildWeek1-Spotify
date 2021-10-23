@@ -62,11 +62,11 @@ body {
 .dropdown-menu {
   background: rgb(18, 18, 16);
   background: linear-gradient(
-      0deg,
-      rgba(56, 3, 3, 0.555) 0%,
-      rgb(0, 0, 0) 58%,
-      rgba(49, 1, 7, 0.342) 100%
-    );
+    0deg,
+    rgba(56, 3, 3, 0.555) 0%,
+    rgb(0, 0, 0) 58%,
+    rgba(49, 1, 7, 0.342) 100%
+  );
 }
 
 .dropdown-menu a {
@@ -76,15 +76,15 @@ body {
 .dropdown-menu a:hover {
   background: rgb(18, 18, 16);
   background: linear-gradient(
-      0deg,
-      rgba(70, 69, 69, 0.555) 0%,
-      rgb(80, 37, 41) 58%,
-      rgba(63, 20, 25, 0.514) 100%
-    );
+    0deg,
+    rgba(70, 69, 69, 0.555) 0%,
+    rgb(80, 37, 41) 58%,
+    rgba(63, 20, 25, 0.514) 100%
+  );
   color: #e0dbdb;
 }
 
-#horizontal-nav{
+#horizontal-nav {
   position: absolute;
 }
 
@@ -130,7 +130,7 @@ body {
   align-content: center;
 }
 
-.fill-heart{
+.fill-heart {
   color: rgb(240, 116, 188);
 }
 
@@ -376,7 +376,7 @@ footer #myProgressBar .icons {
   height: 4px;
 }
 
-.container-fluid{
+.container-fluid {
   overflow-x: hidden;
 }
 /* @media screen and (max-width: 867px) {
@@ -447,10 +447,10 @@ footer #myProgressBar .icons {
   background-size: cover;
 }
 #header-head {
-  margin-bottom: -26vh;
+  margin-bottom: -34vh;
   position: absolute;
   bottom: 8%;
-  left: 22%;
+  left: 6%;
   font-size: 3.5rem;
   font-weight: 900;
   font-size: 80px;
@@ -458,35 +458,35 @@ footer #myProgressBar .icons {
 #small-text {
   position: absolute;
   bottom: 8%;
-  left: 22%;
-  margin-bottom: -30vh;
+  left: 10%;
+  margin-bottom: -37vh;
 }
 #verified-artist {
   position: absolute;
   bottom: 8%;
   left: 14%;
-  margin-bottom: -15vh;
-  margin-left: 36px;
+  margin-bottom: -22vh;
+  margin-left: -19px;
 }
 
-.artist-song1:hover .fa-play{
-  display: block!important;
+.artist-song1:hover .fa-play {
+  display: block !important;
 }
 
-.artist-song1:hover .row-number{
+.artist-song1:hover .row-number {
   display: none;
 }
 
-.artist-song1{
+.artist-song1 {
   border: 1px solid transparent;
 }
 
-.artist-song1:hover{
-border-color: rgba(126, 125, 125, 0.192);
-background-color: rgba(126, 125, 125, 0.192);
-transition-duration: 0.2s;
+.artist-song1:hover {
+  border-color: rgba(126, 125, 125, 0.192);
+  background-color: rgba(126, 125, 125, 0.192);
+  transition-duration: 0.2s;
 }
 
-#see-more{
+#see-more {
   color: rgb(212, 212, 212);
 }
